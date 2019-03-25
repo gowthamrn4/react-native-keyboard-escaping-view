@@ -6,4 +6,12 @@ If you also want use ScrollView inside this area - use &lt;ScrollViewForKeyboard
 
 For my tasks all is working on Android and iOS both.
 
+For usage:
+
+npm i --save react-native-keyboard-escaping-view
+
+in your code:
+
+import { KeyboardEscapingView, ScrollViewForKeyboard } from 'react-native-keyboard-escaping-view';
+
 Good luck!
