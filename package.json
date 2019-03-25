@@ -1,6 +1,6 @@
 {
   "name": "react-native-keyboard-escaping-view",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A view сorrectly responding to the appearance of the keyboard, on Android and OS. And a component that monitors keyboard events and scrolls content during its appearance and removal.",
   "main": "index.js",
   "scripts": {
