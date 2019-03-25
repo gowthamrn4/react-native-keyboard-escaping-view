@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Keyboard, Platform, ScrollView, View} from "react-native";
-import Dimensions from 'Dimensions';
+import { Dimensions } from 'react-native';
 
 const keyboardShowEvent = Platform.OS === 'ios' ? 'keyboardWillShow' : 'keyboardDidShow';
 const keyboardHideEvent = Platform.OS === 'ios' ? 'keyboardWillHide' : 'keyboardDidHide';
