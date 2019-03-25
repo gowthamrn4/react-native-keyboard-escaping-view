@@ -16,4 +16,3 @@ import { KeyboardEscapingView, ScrollViewForKeyboard } from 'react-native-keyboa
 
 Good luck!
 
-https://i.yapx.ru/DwSNq.gif
