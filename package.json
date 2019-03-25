@@ -16,6 +16,11 @@
     "keyboard",
     "scrollview"
   ],
+  "peerDependencies": {
+    "prop-types": "*",
+    "react": "*",
+    "react-native": "*"
+  },
   "author": "Untilla",
   "license": "ISC",
   "bugs": {
