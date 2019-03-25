@@ -41,7 +41,7 @@ class KeyboardEscapingView extends Component {
                 contentContainerStyle={{ ...this.props.style }}
                 style={{ ...this.props.style }}
                 ref={node => this.scrollRef = node}
-                onContentSizeChange={() => this.scrollRef.scrollToEnd({ animated: true })}
+                // onContentSizeChange={() => this.scrollRef.scrollToEnd({ animated: true })}
                 onLayout={event => {
                     const layout = event.nativeEvent.layout;
                     this.bottomSpace = Dimensions.get('window').height - (layout.y + layout.height);
@@ -75,7 +75,7 @@ class ScrollViewForKeyboard extends Component {
     };
 
     _keyboardWillHide = () => {
-        setTimeout(() => this.scrollRef.scrollTo({x: 0, y: this.scrollY - this.keyboardHeight, animated: true}), 1);
+        setTimeout(() => this.scrollRef.scrollToEnd({ animated: true }), 50);
         // this.setState({
         //     offset: 0,
         // });
