@@ -1,0 +1,8 @@
+/node_modules/
+/.idea/
+/.next/
+package-lock.json
+/build/
+
+/yarn.lock
+.DS_Store
