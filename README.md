@@ -15,3 +15,5 @@ in your code:
 import { KeyboardEscapingView, ScrollViewForKeyboard } from 'react-native-keyboard-escaping-view';
 
 Good luck!
+
+https://i.yapx.ru/DwSNq.gif
